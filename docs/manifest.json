@@ -1,6 +1,6 @@
 {
   "id": "org.cinevora.drive",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "Cinevora",
   "description": "Filmes proprios autorizados no Google Drive.",
   "logo": "",
@@ -17,7 +17,7 @@
       ]
     }
   ],
-  "idPrefixes": ["cinevora:"],
+  "idPrefixes": ["1GCuYGVjCaUpMhDvlkugKqzDsWmsvqRNU"],
   "behaviorHints": {
     "adult": false,
     "p2p": false,
