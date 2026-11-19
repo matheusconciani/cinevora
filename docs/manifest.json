@@ -1,0 +1,26 @@
+{
+  "id": "org.cinevora.drive",
+  "version": "1.0.1",
+  "name": "Cinevora",
+  "description": "Filmes proprios autorizados no Google Drive.",
+  "logo": "",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["movie"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "cinevora-drive",
+      "name": "Cinevora",
+      "extra": [
+        { "name": "search", "isRequired": false },
+        { "name": "skip", "isRequired": false }
+      ]
+    }
+  ],
+  "idPrefixes": ["1GCuYGVjCaUpMhDvlkugKqzDsWmsvqRNU"],
+  "behaviorHints": {
+    "adult": false,
+    "p2p": false,
+    "configurable": false
+  }
+}

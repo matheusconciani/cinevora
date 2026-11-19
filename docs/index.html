@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cinevora - Stremio Addon</title>
+  </head>
+  <body>
+    <main>
+      <h1>Cinevora</h1>
+      <p>Biblioteca de filmes proprios autorizados no Google Drive.</p>
+      <p><a id="install" href="#">Instalar no Stremio</a></p>
+    </main>
+    <script>
+      const manifest = new URL("manifest.json", window.location.href).href;
+      document.querySelector("#install").href =
+        "stremio://" + manifest.replace(/^https?:\/\//, "");
+    </script>
+  </body>
+</html>
