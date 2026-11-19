@@ -17,7 +17,7 @@
       ]
     }
   ],
-  "idPrefixes": ["1GCuYGVjCaUpMhDvlkugKqzDsWmsvqRNU"],
+  "idPrefixes": ["cinevora:"],
   "behaviorHints": {
     "adult": false,
     "p2p": false,
