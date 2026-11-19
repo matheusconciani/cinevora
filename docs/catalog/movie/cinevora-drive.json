@@ -1,11 +1,13 @@
 {
   "metas": [
     {
-      "id": "1GCuYGVjCaUpMhDvlkugKqzDsWmsvqRNU",
+      "id": "tt2709768",
       "type": "movie",
       "name": "Pets A Vida Secreta dos Bichos",
       "description": "Filme compartilhado pelo Google Drive.",
-      "year": 2016
+      "releaseInfo": "2016",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjI0ODcyODU5Nl5BMl5BanBnXkFtZTgwMDI1MzA0NzE@._V1_.jpg",
+      "posterShape": "poster"
     }
   ]
 }
